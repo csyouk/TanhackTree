@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C22D0161D2B8FC400482A16 /* PrinterSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22D0151D2B8FC400482A16 /* PrinterSettingViewController.swift */; };
+		2C22D01A1D2BA6BF00482A16 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22D0191D2BA6BF00482A16 /* HTTPClient.swift */; };
+		2CC7F95D1D2B63E300F3FD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7F95C1D2B63E300F3FD16 /* AppDelegate.swift */; };
+		2CC7F95F1D2B63E300F3FD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7F95E1D2B63E300F3FD16 /* ViewController.swift */; };
+		2CC7F9621D2B63E300F3FD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7F9601D2B63E300F3FD16 /* Main.storyboard */; };
+		2CC7F9641D2B63E300F3FD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7F9631D2B63E300F3FD16 /* Assets.xcassets */; };
+		2CC7F9671D2B63E300F3FD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7F9651D2B63E300F3FD16 /* LaunchScreen.storyboard */; };
+		2CC7F9721D2B63E400F3FD16 /* AccIdPrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7F9711D2B63E400F3FD16 /* AccIdPrinterTests.swift */; };
+		2CC7F97D1D2B63E400F3FD16 /* AccIdPrinterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7F97C1D2B63E400F3FD16 /* AccIdPrinterUITests.swift */; };
+		2CC7F98B1D2B642D00F3FD16 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC7F98A1D2B642D00F3FD16 /* ExternalAccessory.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2CC7F99B1D2B648200F3FD16 /* libBXSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC7F99A1D2B648200F3FD16 /* libBXSDK.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2CC7F99D1D2B649B00F3FD16 /* PrinterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7F99C1D2B649B00F3FD16 /* PrinterController.swift */; };
+		40DF4C1E0E2AB87B4DBEACB2 /* Pods_AccIdPrinter_AccIdPrinterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4570B9CAA454853129806849 /* Pods_AccIdPrinter_AccIdPrinterTests.framework */; };
+		46C2BCC1B5ADB51C0436E489 /* Pods_AccIdPrinter_AccIdPrinterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D7561F77E447905E01D976 /* Pods_AccIdPrinter_AccIdPrinterUITests.framework */; };
+		B4C6F0E30A9A34DABDA8F69C /* Pods_AccIdPrinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C1E3CFB4775F64051C8BB9 /* Pods_AccIdPrinter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC7F96E1D2B63E400F3FD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC7F9511D2B63E300F3FD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC7F9581D2B63E300F3FD16;
+			remoteInfo = AccIdPrinter;
+		};
+		2CC7F9791D2B63E400F3FD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC7F9511D2B63E300F3FD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC7F9581D2B63E300F3FD16;
+			remoteInfo = AccIdPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C22D0151D2B8FC400482A16 /* PrinterSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterSettingViewController.swift; sourceTree = "<group>"; };
+		2C22D0191D2BA6BF00482A16 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		2C2585821D47244A0049FDF3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2CC7F9591D2B63E300F3FD16 /* TanhackTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanhackTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC7F95C1D2B63E300F3FD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC7F95E1D2B63E300F3FD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CC7F9611D2B63E300F3FD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CC7F9631D2B63E300F3FD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC7F9661D2B63E300F3FD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CC7F9681D2B63E300F3FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC7F96D1D2B63E400F3FD16 /* TanhackTree.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanhackTree.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC7F9711D2B63E400F3FD16 /* AccIdPrinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccIdPrinterTests.swift; sourceTree = "<group>"; };
+		2CC7F9731D2B63E400F3FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC7F9781D2B63E400F3FD16 /* TanhackTree.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanhackTree.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC7F97C1D2B63E400F3FD16 /* AccIdPrinterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccIdPrinterUITests.swift; sourceTree = "<group>"; };
+		2CC7F97E1D2B63E400F3FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC7F98A1D2B642D00F3FD16 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		2CC7F98D1D2B648200F3FD16 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2CC7F98F1D2B648200F3FD16 /* BXBarcodeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXBarcodeInfo.h; sourceTree = "<group>"; };
+		2CC7F9901D2B648200F3FD16 /* BXCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXCode.h; sourceTree = "<group>"; };
+		2CC7F9911D2B648200F3FD16 /* BXPrinterControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXPrinterControlDelegate.h; sourceTree = "<group>"; };
+		2CC7F9921D2B648200F3FD16 /* BXPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXPrinterController.h; sourceTree = "<group>"; };
+		2CC7F9931D2B648200F3FD16 /* BXPrinterObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXPrinterObjects.h; sourceTree = "<group>"; };
+		2CC7F9941D2B648200F3FD16 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		2CC7F9951D2B648200F3FD16 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		2CC7F9961D2B648200F3FD16 /* iControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iControllerDelegate.h; sourceTree = "<group>"; };
+		2CC7F9971D2B648200F3FD16 /* InterfaceFunctionsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceFunctionsDelegate.h; sourceTree = "<group>"; };
+		2CC7F9981D2B648200F3FD16 /* NetFunctionsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetFunctionsDelegate.h; sourceTree = "<group>"; };
+		2CC7F9991D2B648200F3FD16 /* UDPServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPServerDelegate.h; sourceTree = "<group>"; };
+		2CC7F99A1D2B648200F3FD16 /* libBXSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBXSDK.a; sourceTree = "<group>"; };
+		2CC7F99C1D2B649B00F3FD16 /* PrinterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterController.swift; sourceTree = "<group>"; };
+		2CF9B7091D5B38DF0054BCFC /* IJProgressView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJProgressView.framework; path = "../../Library/Developer/Xcode/DerivedData/AccIdPrinter-fwbwthanfcbjoqeelomxgoaiuumu/Build/Products/Debug-iphoneos/IJProgressView/IJProgressView.framework"; sourceTree = "<group>"; };
+		4570B9CAA454853129806849 /* Pods_AccIdPrinter_AccIdPrinterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccIdPrinter_AccIdPrinterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520864689AAE6A24F488277A /* Pods-AccIdPrinter-AccIdPrinterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter-AccIdPrinterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterUITests/Pods-AccIdPrinter-AccIdPrinterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C43102A4868FE24EDB0C77A /* Pods-AccIdPrinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter/Pods-AccIdPrinter.debug.xcconfig"; sourceTree = "<group>"; };
+		97C2C2D1D881A374AA9BDD34 /* Pods-AccIdPrinter-AccIdPrinterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter-AccIdPrinterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterUITests/Pods-AccIdPrinter-AccIdPrinterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFDEE970889037FA2BF17CD5 /* Pods-AccIdPrinter-AccIdPrinterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter-AccIdPrinterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterTests/Pods-AccIdPrinter-AccIdPrinterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5711F11894433352C7C5327 /* Pods-AccIdPrinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter/Pods-AccIdPrinter.release.xcconfig"; sourceTree = "<group>"; };
+		E5D7561F77E447905E01D976 /* Pods_AccIdPrinter_AccIdPrinterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccIdPrinter_AccIdPrinterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C1E3CFB4775F64051C8BB9 /* Pods_AccIdPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccIdPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D237F3F3683C56F99DB1BB /* Pods-AccIdPrinter-AccIdPrinterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccIdPrinter-AccIdPrinterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterTests/Pods-AccIdPrinter-AccIdPrinterTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC7F9561D2B63E300F3FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC7F99B1D2B648200F3FD16 /* libBXSDK.a in Frameworks */,
+				2CC7F98B1D2B642D00F3FD16 /* ExternalAccessory.framework in Frameworks */,
+				B4C6F0E30A9A34DABDA8F69C /* Pods_AccIdPrinter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F96A1D2B63E400F3FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DF4C1E0E2AB87B4DBEACB2 /* Pods_AccIdPrinter_AccIdPrinterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F9751D2B63E400F3FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C2BCC1B5ADB51C0436E489 /* Pods_AccIdPrinter_AccIdPrinterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE45C7AB06AF48B1F4E07E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9B7091D5B38DF0054BCFC /* IJProgressView.framework */,
+				F3C1E3CFB4775F64051C8BB9 /* Pods_AccIdPrinter.framework */,
+				4570B9CAA454853129806849 /* Pods_AccIdPrinter_AccIdPrinterTests.framework */,
+				E5D7561F77E447905E01D976 /* Pods_AccIdPrinter_AccIdPrinterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28E4E27895A079C4EBCD0AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C43102A4868FE24EDB0C77A /* Pods-AccIdPrinter.debug.xcconfig */,
+				D5711F11894433352C7C5327 /* Pods-AccIdPrinter.release.xcconfig */,
+				F9D237F3F3683C56F99DB1BB /* Pods-AccIdPrinter-AccIdPrinterTests.debug.xcconfig */,
+				CFDEE970889037FA2BF17CD5 /* Pods-AccIdPrinter-AccIdPrinterTests.release.xcconfig */,
+				520864689AAE6A24F488277A /* Pods-AccIdPrinter-AccIdPrinterUITests.debug.xcconfig */,
+				97C2C2D1D881A374AA9BDD34 /* Pods-AccIdPrinter-AccIdPrinterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CC7F9501D2B63E300F3FD16 = {
+			isa = PBXGroup;
+			children = (
+				2CC7F98C1D2B648200F3FD16 /* BixolonLib */,
+				2CC7F98A1D2B642D00F3FD16 /* ExternalAccessory.framework */,
+				2CC7F95B1D2B63E300F3FD16 /* TanhackTree */,
+				2CC7F9701D2B63E400F3FD16 /* TanhackTreeTests */,
+				2CC7F97B1D2B63E400F3FD16 /* TanhackTreeUITests */,
+				2CC7F95A1D2B63E300F3FD16 /* Products */,
+				28E4E27895A079C4EBCD0AD7 /* Pods */,
+				0BE45C7AB06AF48B1F4E07E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC7F95A1D2B63E300F3FD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F9591D2B63E300F3FD16 /* TanhackTree.app */,
+				2CC7F96D1D2B63E400F3FD16 /* TanhackTree.xctest */,
+				2CC7F9781D2B63E400F3FD16 /* TanhackTree.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC7F95B1D2B63E300F3FD16 /* TanhackTree */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F95C1D2B63E300F3FD16 /* AppDelegate.swift */,
+				2CC7F95E1D2B63E300F3FD16 /* ViewController.swift */,
+				2CC7F99C1D2B649B00F3FD16 /* PrinterController.swift */,
+				2CC7F9601D2B63E300F3FD16 /* Main.storyboard */,
+				2CC7F9631D2B63E300F3FD16 /* Assets.xcassets */,
+				2CC7F9651D2B63E300F3FD16 /* LaunchScreen.storyboard */,
+				2CC7F9681D2B63E300F3FD16 /* Info.plist */,
+				2C22D0151D2B8FC400482A16 /* PrinterSettingViewController.swift */,
+				2C22D0191D2BA6BF00482A16 /* HTTPClient.swift */,
+			);
+			name = TanhackTree;
+			path = AccIdPrinter;
+			sourceTree = "<group>";
+		};
+		2CC7F9701D2B63E400F3FD16 /* TanhackTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F9711D2B63E400F3FD16 /* AccIdPrinterTests.swift */,
+				2CC7F9731D2B63E400F3FD16 /* Info.plist */,
+			);
+			name = TanhackTreeTests;
+			path = AccIdPrinterTests;
+			sourceTree = "<group>";
+		};
+		2CC7F97B1D2B63E400F3FD16 /* TanhackTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F97C1D2B63E400F3FD16 /* AccIdPrinterUITests.swift */,
+				2CC7F97E1D2B63E400F3FD16 /* Info.plist */,
+			);
+			name = TanhackTreeUITests;
+			path = AccIdPrinterUITests;
+			sourceTree = "<group>";
+		};
+		2CC7F98C1D2B648200F3FD16 /* BixolonLib */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F98D1D2B648200F3FD16 /* Bridging-Header.h */,
+				2CC7F98E1D2B648200F3FD16 /* Headers */,
+				2CC7F99A1D2B648200F3FD16 /* libBXSDK.a */,
+			);
+			path = BixolonLib;
+			sourceTree = "<group>";
+		};
+		2CC7F98E1D2B648200F3FD16 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7F98F1D2B648200F3FD16 /* BXBarcodeInfo.h */,
+				2CC7F9901D2B648200F3FD16 /* BXCode.h */,
+				2CC7F9911D2B648200F3FD16 /* BXPrinterControlDelegate.h */,
+				2CC7F9921D2B648200F3FD16 /* BXPrinterController.h */,
+				2CC7F9931D2B648200F3FD16 /* BXPrinterObjects.h */,
+				2CC7F9941D2B648200F3FD16 /* Common.h */,
+				2CC7F9951D2B648200F3FD16 /* Defines.h */,
+				2CC7F9961D2B648200F3FD16 /* iControllerDelegate.h */,
+				2CC7F9971D2B648200F3FD16 /* InterfaceFunctionsDelegate.h */,
+				2CC7F9981D2B648200F3FD16 /* NetFunctionsDelegate.h */,
+				2CC7F9991D2B648200F3FD16 /* UDPServerDelegate.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC7F9581D2B63E300F3FD16 /* TanhackTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC7F9811D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTree" */;
+			buildPhases = (
+				919FC3B7B6AF3558914F642C /* [CP] Check Pods Manifest.lock */,
+				2CC7F9551D2B63E300F3FD16 /* Sources */,
+				2CC7F9561D2B63E300F3FD16 /* Frameworks */,
+				2CC7F9571D2B63E300F3FD16 /* Resources */,
+				AA8305D3FC624501E0CFA52C /* [CP] Embed Pods Frameworks */,
+				D47EDAE7822E18EBCCEF045C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanhackTree;
+			productName = AccIdPrinter;
+			productReference = 2CC7F9591D2B63E300F3FD16 /* TanhackTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC7F96C1D2B63E400F3FD16 /* TanhackTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC7F9841D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTreeTests" */;
+			buildPhases = (
+				9F3F990C3167884DCD364A76 /* [CP] Check Pods Manifest.lock */,
+				2CC7F9691D2B63E400F3FD16 /* Sources */,
+				2CC7F96A1D2B63E400F3FD16 /* Frameworks */,
+				2CC7F96B1D2B63E400F3FD16 /* Resources */,
+				33AC626E4278FC9241313E2D /* [CP] Embed Pods Frameworks */,
+				3688CF16D86FEE572715168B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC7F96F1D2B63E400F3FD16 /* PBXTargetDependency */,
+			);
+			name = TanhackTreeTests;
+			productName = AccIdPrinterTests;
+			productReference = 2CC7F96D1D2B63E400F3FD16 /* TanhackTree.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC7F9771D2B63E400F3FD16 /* TanhackTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC7F9871D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTreeUITests" */;
+			buildPhases = (
+				63E5D740015B1155B2F275CB /* [CP] Check Pods Manifest.lock */,
+				2CC7F9741D2B63E400F3FD16 /* Sources */,
+				2CC7F9751D2B63E400F3FD16 /* Frameworks */,
+				2CC7F9761D2B63E400F3FD16 /* Resources */,
+				7597F0CDC5E65468056CD5A4 /* [CP] Copy Pods Resources */,
+				166A359386D8093E04EA534A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC7F97A1D2B63E400F3FD16 /* PBXTargetDependency */,
+			);
+			name = TanhackTreeUITests;
+			productName = AccIdPrinterUITests;
+			productReference = 2CC7F9781D2B63E400F3FD16 /* TanhackTree.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC7F9511D2B63E300F3FD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nolgong;
+				TargetAttributes = {
+					2CC7F9581D2B63E300F3FD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NLQ45ZZ74N;
+					};
+					2CC7F96C1D2B63E400F3FD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2CC7F9581D2B63E300F3FD16;
+					};
+					2CC7F9771D2B63E400F3FD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2CC7F9581D2B63E300F3FD16;
+					};
+				};
+			};
+			buildConfigurationList = 2CC7F9541D2B63E300F3FD16 /* Build configuration list for PBXProject "TanhackTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 2CC7F9501D2B63E300F3FD16;
+			productRefGroup = 2CC7F95A1D2B63E300F3FD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC7F9581D2B63E300F3FD16 /* TanhackTree */,
+				2CC7F96C1D2B63E400F3FD16 /* TanhackTreeTests */,
+				2CC7F9771D2B63E400F3FD16 /* TanhackTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC7F9571D2B63E300F3FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC7F9671D2B63E300F3FD16 /* LaunchScreen.storyboard in Resources */,
+				2CC7F9641D2B63E300F3FD16 /* Assets.xcassets in Resources */,
+				2CC7F9621D2B63E300F3FD16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F96B1D2B63E400F3FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F9761D2B63E400F3FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166A359386D8093E04EA534A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterUITests/Pods-AccIdPrinter-AccIdPrinterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33AC626E4278FC9241313E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterTests/Pods-AccIdPrinter-AccIdPrinterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3688CF16D86FEE572715168B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterTests/Pods-AccIdPrinter-AccIdPrinterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E5D740015B1155B2F275CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7597F0CDC5E65468056CD5A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter-AccIdPrinterUITests/Pods-AccIdPrinter-AccIdPrinterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919FC3B7B6AF3558914F642C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3F990C3167884DCD364A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8305D3FC624501E0CFA52C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter/Pods-AccIdPrinter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47EDAE7822E18EBCCEF045C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccIdPrinter/Pods-AccIdPrinter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC7F9551D2B63E300F3FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC7F99D1D2B649B00F3FD16 /* PrinterController.swift in Sources */,
+				2C22D01A1D2BA6BF00482A16 /* HTTPClient.swift in Sources */,
+				2CC7F95F1D2B63E300F3FD16 /* ViewController.swift in Sources */,
+				2C22D0161D2B8FC400482A16 /* PrinterSettingViewController.swift in Sources */,
+				2CC7F95D1D2B63E300F3FD16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F9691D2B63E400F3FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC7F9721D2B63E400F3FD16 /* AccIdPrinterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC7F9741D2B63E400F3FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC7F97D1D2B63E400F3FD16 /* AccIdPrinterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC7F96F1D2B63E400F3FD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC7F9581D2B63E300F3FD16 /* TanhackTree */;
+			targetProxy = 2CC7F96E1D2B63E400F3FD16 /* PBXContainerItemProxy */;
+		};
+		2CC7F97A1D2B63E400F3FD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC7F9581D2B63E300F3FD16 /* TanhackTree */;
+			targetProxy = 2CC7F9791D2B63E400F3FD16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CC7F9601D2B63E300F3FD16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC7F9611D2B63E300F3FD16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CC7F9651D2B63E300F3FD16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC7F9661D2B63E300F3FD16 /* Base */,
+				2C2585821D47244A0049FDF3 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC7F97F1D2B63E400F3FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/BixolonLib/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2CC7F9801D2B63E400F3FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/BixolonLib/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC7F9821D2B63E400F3FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C43102A4868FE24EDB0C77A /* Pods-AccIdPrinter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AccIdPrinter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BixolonLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TanhackTree;
+				PRODUCT_NAME = TanhackTree;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/BixolonLib/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2CC7F9831D2B63E400F3FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5711F11894433352C7C5327 /* Pods-AccIdPrinter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AccIdPrinter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BixolonLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TanhackTree;
+				PRODUCT_NAME = TanhackTree;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/BixolonLib/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2CC7F9851D2B63E400F3FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D237F3F3683C56F99DB1BB /* Pods-AccIdPrinter-AccIdPrinterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccIdPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgong.AccIdPrinterTests;
+				PRODUCT_NAME = TanhackTree;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanhackTree.app/TanhackTree";
+			};
+			name = Debug;
+		};
+		2CC7F9861D2B63E400F3FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDEE970889037FA2BF17CD5 /* Pods-AccIdPrinter-AccIdPrinterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccIdPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgong.AccIdPrinterTests;
+				PRODUCT_NAME = TanhackTree;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanhackTree.app/TanhackTree";
+			};
+			name = Release;
+		};
+		2CC7F9881D2B63E400F3FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520864689AAE6A24F488277A /* Pods-AccIdPrinter-AccIdPrinterUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AccIdPrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgong.AccIdPrinterUITests;
+				PRODUCT_NAME = TanhackTree;
+				TEST_TARGET_NAME = AccIdPrinter;
+			};
+			name = Debug;
+		};
+		2CC7F9891D2B63E400F3FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C2C2D1D881A374AA9BDD34 /* Pods-AccIdPrinter-AccIdPrinterUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AccIdPrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgong.AccIdPrinterUITests;
+				PRODUCT_NAME = TanhackTree;
+				TEST_TARGET_NAME = AccIdPrinter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC7F9541D2B63E300F3FD16 /* Build configuration list for PBXProject "TanhackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC7F97F1D2B63E400F3FD16 /* Debug */,
+				2CC7F9801D2B63E400F3FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC7F9811D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC7F9821D2B63E400F3FD16 /* Debug */,
+				2CC7F9831D2B63E400F3FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC7F9841D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC7F9851D2B63E400F3FD16 /* Debug */,
+				2CC7F9861D2B63E400F3FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC7F9871D2B63E400F3FD16 /* Build configuration list for PBXNativeTarget "TanhackTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC7F9881D2B63E400F3FD16 /* Debug */,
+				2CC7F9891D2B63E400F3FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC7F9511D2B63E300F3FD16 /* Project object */;
+}
